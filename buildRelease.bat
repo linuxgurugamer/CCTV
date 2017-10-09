@@ -31,4 +31,3 @@ copy License.txt GameData\CCTV
 set FILE="%RELEASEDIR%\CCTV-%VERSION%.zip"
 IF EXIST %FILE% del /F %FILE%
 %ZIP% a -tzip %FILE% GameData
-pause
