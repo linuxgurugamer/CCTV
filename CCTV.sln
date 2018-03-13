@@ -1,20 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCTV", "CCTV.csproj", "{2EC6C3BC-CF93-4E4F-BEB3-A6375081A94C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCTV", "CCTV\CCTV.csproj", "{2EC6C3BC-CF93-4E4F-BEB3-A6375081A94C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{3231649F-1A82-4BC8-AC61-ECCF7E4EDEA3}"
 	ProjectSection(SolutionItems) = preProject
-		..\GameData\CCTV\MMPatches\ASETCamPatch.cfg = ..\GameData\CCTV\MMPatches\ASETCamPatch.cfg
-		..\buildRelease.bat = ..\buildRelease.bat
-		..\GameData\CCTV\CCTV.version = ..\GameData\CCTV\CCTV.version
-		..\deploy.bat = ..\deploy.bat
-		..\GameData\CCTV\MMPatches\FASACamPatch.cfg = ..\GameData\CCTV\MMPatches\FASACamPatch.cfg
-		..\GameData\CCTV\MMPatches\HullcamVDSPatch.cfg = ..\GameData\CCTV\MMPatches\HullcamVDSPatch.cfg
-		..\GameData\CCTV\MMPatches\JSICamPatch.cfg = ..\GameData\CCTV\MMPatches\JSICamPatch.cfg
-		..\GameData\CCTV\MMPatches\Tweakscale.cfg = ..\GameData\CCTV\MMPatches\Tweakscale.cfg
+		buildRelease.bat = buildRelease.bat
+		CCTV.version = CCTV.version
+		Changelog.txt = Changelog.txt
+		deploy.bat = deploy.bat
+		Readme.md = Readme.md
 	EndProjectSection
 EndProject
 Global
@@ -30,5 +27,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8FA845D-429E-40E9-85A1-31603AE0744F}
 	EndGlobalSection
 EndGlobal
