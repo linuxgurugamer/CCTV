@@ -1,5 +1,9 @@
 Changelog
 
+1.1.4
+	Updated old KAS configs with new KIS config
+	Added a NEEDS to the JSIExternalCameraSelector modules
+
 1.1.3.2
 	Version bump for 1.5 rebuild
 
