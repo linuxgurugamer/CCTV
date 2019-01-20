@@ -1,5 +1,8 @@
 Changelog
 
+1.1.5
+	Added missing bulkheadProfiles
+	
 1.1.4.1
 	Fixed MM patch for the HullcamVDS mod
 
