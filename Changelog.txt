@@ -1,5 +1,8 @@
 Changelog
 
+1.1.5.1
+	Added whitelist file for the new ReStock mod
+
 1.1.5
 	Added missing bulkheadProfiles
 	
