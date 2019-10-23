@@ -1,8 +1,13 @@
 Changelog
 
+1.1.6
+	Added installChecker
+	Rebuild for 1.8
+
 1.1.5.2
 	Version bump for 1.7.2
 	Updated AssemblyVersion.tt to do location independent builds
+
 1.1.5.1
 	Added whitelist file for the new ReStock mod
 

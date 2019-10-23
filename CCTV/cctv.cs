@@ -42,7 +42,7 @@ namespace monitor
 
         private Dictionary<string, PartContainer> myCams = new Dictionary<string, PartContainer>();
 
-        private Texture blankScreen = new Texture();
+        private Texture blankScreen = new Texture2D(2,2);
 
         public int selectedCam = 0;
 
