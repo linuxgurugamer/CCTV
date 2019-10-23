@@ -21,3 +21,5 @@ Patches are included to work with cameras from the following mods:
 	FASA
 	HullcamVDS
 	JSI
+	
+Icon for agent made by https://www.flaticon.com/authors/itim2101 from www.flaticon.com

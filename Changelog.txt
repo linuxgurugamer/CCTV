@@ -1,5 +1,9 @@
 Changelog
 
+1.1.6.1
+	Added agent
+	Fixed repository in version file
+
 1.1.6
 	Added installChecker
 	Rebuild for 1.8
