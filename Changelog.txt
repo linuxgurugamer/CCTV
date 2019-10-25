@@ -1,5 +1,8 @@
 Changelog
 
+1.1.6.2
+	Updated MiniAVC to 1.4.0
+
 1.1.6.1
 	Added agent
 	Fixed repository in version file
