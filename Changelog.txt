@@ -1,5 +1,8 @@
 Changelog
 
+1.1.6.4
+	Really did the MiniAVC update
+
 1.1.6.3
 	Updated MiniAVC.dll to 1.4.0.2 to fix a nasty CTD
 
