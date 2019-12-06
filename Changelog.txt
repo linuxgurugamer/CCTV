@@ -1,5 +1,8 @@
 Changelog
 
+1.1.6.5
+	Fixed initialization for new Unity version with KSP 1.8
+
 1.1.6.4
 	Really did the MiniAVC update
 

@@ -1,10 +1,5 @@
-﻿using System;
-
-using System.Collections;
-
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using UnityEngine;
 using cam;
 using remotecam;
@@ -42,7 +37,7 @@ namespace monitor
 
         private Dictionary<string, PartContainer> myCams = new Dictionary<string, PartContainer>();
 
-        private Texture blankScreen = new Texture2D(2,2);
+        private Texture blankScreen;
 
         public int selectedCam = 0;
 
@@ -50,14 +45,20 @@ namespace monitor
 
         private bool isInitialised = false;
 
-        public override void OnStart(PartModule.StartState state)
+        //        public override void OnStart(PartModule.StartState state)
+        public new void   Awake()
         {
+            base.Awake();
+            blankScreen = new Texture2D(2, 2);
+        }
+        public override void OnStart(PartModule.StartState state)
+        { 
             base.OnStart(state);
 
-            GameScenes scene = HighLogic.LoadedScene;
-            if (scene == GameScenes.FLIGHT)
-                blankScreen = gameObject.GetChild("Screen").GetComponent<Renderer>().material.GetTexture("_MainTex"); ;
+            if (HighLogic.LoadedScene == GameScenes.FLIGHT)
+                blankScreen = gameObject.GetChild("Screen").GetComponent<Renderer>().material.GetTexture("_MainTex");
         }
+
         public override void OnUpdate()
         {
             base.OnUpdate();
