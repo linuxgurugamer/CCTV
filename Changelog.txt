@@ -1,5 +1,9 @@
 Changelog
 
+1.1.6.6
+	Added AssemblyFileVersion
+	Updated version file for 1.12
+
 1.1.6.5
 	Fixed initialization for new Unity version with KSP 1.8
 
